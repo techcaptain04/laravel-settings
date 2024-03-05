@@ -1,4 +1,4 @@
-![Laravel Setting Pro](https://sajadsdi.github.io/images/laravel-setting-pro.jpg)
+![Laravel Setting Pro](https://techcaptain.github.io/images/laravel-setting-pro.jpg)
 
 # Laravel Setting Pro
 
@@ -14,7 +14,7 @@ storage using both file-based and database drivers.
 The Laravel Setting Pro package simplifies application settings management in Laravel and provides these key features:
 
 - **Flexible Storage**: Choose between file-based or database storage to suit your application's needs.
- 
+
 - **Flexible Database**: Choose between `mysql` or `mongodb` or create own db connection for settings.
 
 - **Caching**: Improve performance with automatic caching of settings. You can choose between `file` or `redis` or create own cache driver.
@@ -59,7 +59,7 @@ First, publish the configuration and migration files using:
 
 ```bash
 php artisan setting:publish
-````
+```
 
 This will publish `_setting.php` to your `config` folder and migration file.
 
@@ -80,7 +80,7 @@ Two ways to use Laravel Setting Pro:
 ```php
 // Get a setting value
 $value = setting('my_setting')->get('key', 'default value');
-//or 
+//or
 $value = setting('my_setting','key', 'default value');
 //or
 $value = setting()->select('my_setting')->get('key', 'default value');
@@ -132,6 +132,7 @@ if(Setting::select('my_setting')->has('key')){
 ```
 
 ## Advanced Usage
+
 you can use `set` and `get` operation in any way as stated above, with dot notation and multiple keys and defaults like this:
 
 ```php
@@ -142,7 +143,7 @@ $value = Setting::my_setting(['users.3.profile.pic','users.3.profile.name'], ["d
 $value = setting('my_setting')->get(['users.3.profile.pic','users.3.profile.name'], ["no data"]);
 
 
-//set operation 
+//set operation
 setting::select('my_setting')->set(['users.3.profile.pic' => "profile.png",'users.3.profile.name' => "john"])
 
 //delete multiple keys
@@ -158,6 +159,7 @@ if(Setting::select('my_setting')->has(['users.3.profile.pic','users.3.profile.na
 
 // it's very Easy
 ```
+
 This package use `Dot Notation Array` package to getting keys and setting operations you can see [Documentation](https://github.com/sajadsdi/array-dot-notation) to better use for Laravel Setting Pro
 
 ## Caching
@@ -170,6 +172,7 @@ php artisan setting:clear-cache
 ```
 
 ## Configuration
+
 You can change `_setting` config on laravel config path.
 
 For more details about Configuration Laravel Setting Pro , [click here](CONFIGURATION.md)
@@ -189,7 +192,7 @@ We welcome contributions from the community to improve and extend this library. 
 
 If you discover any security vulnerabilities or bugs in this project, please let us know through the following channels:
 
-- **GitHub Issues**: You can [open an issue](https://github.com/sajadsdi/laravel-setting-pro/issues) on our GitHub repository to report bugs or security concerns. Please provide as much detail as possible, including steps to reproduce the issue.
+- **GitHub Issues**: You can [open an issue](https://github.com/techcaptain04/laravel-setting-pro/issues) on our GitHub repository to report bugs or security concerns. Please provide as much detail as possible, including steps to reproduce the issue.
 
 - **Contact**: For sensitive security-related issues, you can contact us directly through the following contact channels
 
@@ -197,7 +200,7 @@ If you discover any security vulnerabilities or bugs in this project, please let
 
 If you have any questions, suggestions, financial, or if you'd like to contribute to this project, please feel free to contact the maintainer:
 
-- Email: thunder11like@gmail.com
+- Email: andrii.seliuk@outlook.com
 
 We appreciate your feedback, support, and any financial contributions that help us maintain and improve this project.
 
@@ -207,4 +210,4 @@ This package is open-sourced software licensed under the [MIT license](LICENSE).
 
 ---
 
-Made with ❤️ by [SajaD SaeeDi](mailto:thunder11like@gmail.com).
+Made with ❤️ by [SajaD SaeeDi](mailto:andrii.seliuk@outlook.com).
