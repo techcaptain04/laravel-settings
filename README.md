@@ -203,11 +203,3 @@ If you have any questions, suggestions, financial, or if you'd like to contribut
 - Email: andrii.seliuk@outlook.com
 
 We appreciate your feedback, support, and any financial contributions that help us maintain and improve this project.
-
-## License
-
-This package is open-sourced software licensed under the [MIT license](LICENSE).
-
----
-
-Made with ❤️ by [SajaD SaeeDi](mailto:andrii.seliuk@outlook.com).
