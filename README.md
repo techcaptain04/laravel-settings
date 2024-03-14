@@ -196,9 +196,6 @@ If you discover any security vulnerabilities or bugs in this project, please let
 
 - **Contact**: For sensitive security-related issues, you can contact us directly through the following contact channels
 
-### Contact
-
-If you have any questions, suggestions, financial, or if you'd like to contribute to this project, please feel free to contact the maintainer:
 
 - Email: andrii.seliuk@outlook.com
 
