@@ -199,4 +199,3 @@ If you discover any security vulnerabilities or bugs in this project, please let
 
 - Email: andrii.seliuk@outlook.com
 
-We appreciate your feedback, support, and any financial contributions that help us maintain and improve this project.
