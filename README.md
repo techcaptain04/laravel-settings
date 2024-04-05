@@ -194,8 +194,6 @@ If you discover any security vulnerabilities or bugs in this project, please let
 
 - **GitHub Issues**: You can [open an issue](https://github.com/techcaptain04/laravel-setting-pro/issues) on our GitHub repository to report bugs or security concerns. Please provide as much detail as possible, including steps to reproduce the issue.
 
-- **Contact**: For sensitive security-related issues, you can contact us directly through the following contact channels
-
 
 - Email: andrii.seliuk@outlook.com
 
