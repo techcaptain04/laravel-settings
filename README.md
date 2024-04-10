@@ -1,5 +1,3 @@
-![Laravel Setting Pro](https://techcaptain.github.io/images/laravel-setting-pro.jpg)
-
 # Laravel Setting Pro
 
 Effortless Management of Laravel Application Settings.
