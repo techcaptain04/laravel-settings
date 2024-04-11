@@ -186,9 +186,6 @@ We welcome contributions from the community to improve and extend this library. 
 5. Push your changes to your fork on GitHub.
 6. Submit a pull request to the main repository.
 
-### Reporting Bugs and Security Issues
-
-If you discover any security vulnerabilities or bugs in this project, please let us know through the following channels:
 
 - **GitHub Issues**: You can [open an issue](https://github.com/techcaptain04/laravel-setting-pro/issues) on our GitHub repository to report bugs or security concerns. Please provide as much detail as possible, including steps to reproduce the issue.
 
